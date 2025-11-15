@@ -1,0 +1,6 @@
+{
+  "watch": ["."],
+  "ignore": ["../client/*", "../client/**/*", "client/*", "client/**/*", "node_modules"],
+  "ext": "js,json",
+  "exec": "node server.js"
+}
