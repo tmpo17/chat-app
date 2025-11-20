@@ -67,4 +67,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🌍 Deployment Summary
+
+| Component | Platform | URL |
+|------------|-----------|-----|
+| Backend | Render | https://socketchat-api.onrender.com |
+| Frontend | Vercel | https://socketchat.vercel.app |
+
+### CI/CD
+- GitHub Actions pipelines defined in `.github/workflows/`
+- Builds run automatically on each push.
+- Deploys triggered on successful build to Render & Vercel.
+
+### Monitoring
+- Render logs & UptimeRobot pings every 5 minutes.
+
